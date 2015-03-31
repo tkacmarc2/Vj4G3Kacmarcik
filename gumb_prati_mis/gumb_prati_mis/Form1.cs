@@ -16,5 +16,11 @@ namespace gumb_prati_mis
         {
             InitializeComponent();
         }
+
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            button1.Location = e.Location;
+        }
     }
 }
